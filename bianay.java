@@ -11,28 +11,17 @@ public class bianay {
               if (arrey[mid] == key) 
                 return mid;
             else if (arrey[mid]<key) {
-                left = mid +1;
-                else{ 
-                  
-                    right = mid -1;
-                }
+                left = mid + 1;
+            } else {
+                right = mid - 1;
             }
-              return -1;
-            
         }
-      
-                
-            
-    
-           
-                
-            
-        }
+        return -1;
+    }
 
-    
     public static void main(String[] args) {
         int arrrey[] = {10,20,30,40,50,60,70};
-        int key = 40;
+        int key = 70;
         System.out.println(binaryserch(arrrey, key));
 
 
